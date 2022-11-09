@@ -12,3 +12,5 @@ function solution(n) {
 
 //코드 뜯어보기
 
+ 
+

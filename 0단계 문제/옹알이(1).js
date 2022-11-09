@@ -1,5 +1,4 @@
-// 내풀이
-        1차 못풀음!
+// 내풀이1차 못풀음!
 
 //정답
 function solution(babbling) {
