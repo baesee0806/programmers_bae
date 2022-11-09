@@ -5,4 +5,5 @@ function solution(bin1, bin2) {
     return answer.toString(2);
 }
 
-//코답 노트 확인
+//parseInt(#,2) 2진수를 숫자로 만들어주고
+// .toString(2)는 숫자를 2진수로 만들어준다
