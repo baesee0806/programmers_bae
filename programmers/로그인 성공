@@ -1,0 +1,15 @@
+// [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/120883
+
+function solution(id_pw, db) {
+    let user = db.find(([u]) => u === id_pw[0]);
+
+    if (user) {
+        return user[1] === id_pw[1] ? 'login' : 'wrong pw'
+    } else {
+        return 'fail'
+    }
+}
+
+// find를 사용해서 일치하는지를 확인했다
+// 나는 처음에 for문을 돌려서 하나씩 확인하고 하려헀는데
+// 너무 복잡해져서 나도 코드볼때 헷갈림....음 find 공부함
